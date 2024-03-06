@@ -1,0 +1,77 @@
+:root {
+  --primary--color: #030d43;
+  --secondary--color: #243ffa;
+  --text-color: #757887;
+  --accent: #243ffa;
+  --white-color: #fff;
+}
+
+.wrapper {
+  max-width: 1374px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper2 {
+  max-width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper3 {
+  max-width: 1175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-txt {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--secondary--color);
+}
+
+h1 {
+    
+  font-size: 70px;
+  font-weight: bolder;
+  line-height: 94px;
+  color: var(--primary--color);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 52px;
+  color: var(--primary--color);
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  color: var(--primary--color);
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--primary--color);
+}
+
+.padding-top {
+  padding-top: 150px;
+}
+
+.padding-bottom {
+  padding-bottom: 150px;
+}

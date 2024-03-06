@@ -1,0 +1,210 @@
+:root {
+    --primary-color:#FFF;
+    --secondary-color:#030d43;
+    --accent:#243ffa;
+    --text-color: #757887;
+    --button-color: #243ffa;
+}
+.single-post01 .post-item-description,
+.post-item.border > .post-item-wrap > .post-item-description{
+    color: #676767;
+}
+.single-post01 .post-item-description h2,
+.single-post01 .comments .comment .text .name,
+.sidebar > h4,
+.page-title h1{
+    color: var(--e-global-color-white);
+}
+.color01,.color01 a{
+    color: #777;
+}
+.single-post01 .blockquote {
+    border-left: 3px solid #676767;
+}
+.single-post01 .post-tags a,
+.post-next span,
+.post-prev span,
+.single-post01 .post-navigation .post-next,
+.single-post01 .post-navigation .post-prev,
+.sidebar .post-thumbnail-content a,
+.sidebar .widget-categories ul li a,
+.sidebar .nav-tabs .nav-link,
+.breadcrumb ol li a,
+.breadcrumb ul li a,
+.pagination .page-item:not(.disabled).active > .page-link,
+.pagination .page-item:not(.disabled):active > .page-link,
+.pagination .page-item:not(.disabled):focus > .page-link,
+.pagination .page-item:not(.disabled):hover > .page-link,
+.pagination .page-item:not(.disabled) > .page-link,
+#blog .post-item.border .post-item-wrap .post-item-description a{
+    color: var(--e-global-color-primary);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.single-post01 .post-navigation,
+.single-post01 .comments .comment,
+.pagination .page-item:not(.disabled) > .page-link{
+    background-color: #fff;
+}
+.single-post01 .post-tags a {
+    border: 1px solid #c4c4c4;
+}
+.single-post01 .post-tags a:hover {
+    border: 1px solid var(--e-global-color-accent);
+}
+.single-post01 .comments,.single-post01 .post-navigation {
+    border-top: 1px solid #eee;
+}
+.single-post01 .post-item-description .post-meta {
+    border-bottom: 1px solid #f3f3f3;
+}
+.single-post01 .comment .comment_date {
+    color: #888;
+}
+.single-post01 .text .comment-reply-link,
+.respond-comment span,
+.single-post01 .comment_number span,
+.sidebar .nav-tabs .nav-link.active,
+.sidebar .widget-tweeter li a,
+.sidebar .widget-twitter li a,
+.sidebar .cat-count-span,
+.single-post01 .post-item-description .post-meta-date:hover,
+.single-post01 .post-item-description .post-meta-date a:hover,
+.single-post01 .post-item-description .post-meta-category:hover,
+.single-post01 .post-item-description .post-meta-category a:hover, .single-post01 .post-item-description .post-meta-comments:hover, .single-post01 .post-item-description .post-meta-comments a:hover,
+.single-post01 .post-tags a:hover,
+.post-navigation .post-prev-title:hover span,
+.post-navigation .post-next-title:hover span,
+.post-navigation .post-prev:hover,
+.post-navigation .post-next:hover,
+.single-post01 .post-navigation .post-prev:hover,
+.single-post01 .post-navigation .post-next:hover,
+.post-navigation .post-next:hover span,
+.post-navigation .post-prev:hover span,
+.sidebar .post-thumbnail-list a:hover,
+.sidebar .widget-categories ul li a:hover,
+#blog .post-item .post-item-description .post-meta-comments a:hover,
+#blog .post-item .post-item-description > h2 > a:hover,
+.load-more a:hover,
+#blog .post-item.border .post-item-wrap .post-item-description a:hover{
+    color: var(--button-color);
+    font-size: 14px;
+    line-height: 20px;
+}
+.form-group label:not(.error),
+#blog .post-item .post-item-description > h2,
+#blog .post-item .post-item-description > h2 > a{
+    color: #444;
+}
+.form-gray-fields .form-control {
+    color: #333;
+    background-color: rgba(238,238,238,.6);
+}
+.form-gray-fields .btn:hover{
+    color: var(--e-global-color-accent);
+    background: transparent;
+}
+.single-post01 .form-control{
+    border: 1px solid #ececec;
+}
+.sidebar .widget {
+    border-bottom: 1px solid var(--button-color);
+    border-radius: 0;
+}
+.sidebar .nav-tabs {
+    border-bottom: 2px solid var(--button-color);
+}
+.sidebar .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid var(--button-color);
+}
+.sidebar .post-thumbnail-entry,
+.sidebar .widget-categories ul li{
+    border-bottom: 1px solid var(--button-color);
+}
+.sidebar .post-thumbnail-entry .post-category,
+.sidebar .post-thumbnail-entry .post-date {
+    color: var(--button-color);
+}
+.sidebar .widget-tweeter small,
+.sidebar .widget-twitter small {
+    color: #999;
+}
+.sidebar .tags a {
+    color: var(--button-color);
+    border: 2px solid var(--button-color);
+}
+.form-gray-fields .btn{
+    border-color: var(--e-global-color-accent);
+    background-color: var(--e-global-color-accent);
+}
+.sidebar .tags a.active,
+.sidebar .tags a:active,
+.sidebar .tags a:focus,
+.sidebar .tags a:hover{
+    color: var(--primary-color);
+    background: var(--accent);
+}
+.single-post01 .form-gray-fields .form-control:focus{
+    border-color: #66afe9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.post-item.border .post-meta-category,
+.load-more a{
+    font-size: 16px;
+    line-height: 24px;
+    background-color:var(--button-color);
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+.load-more a{
+    border: 1px solid transparent;
+}
+.load-more a:hover{
+    background-color: var(--primary-color);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    font-size: 16px;
+    line-height: 24px;
+}
+#loader,#loader:before,
+#loader:after{
+    border-top-color: #3795d2;
+}
+#loader-wrapper .loader-section {
+    background: #222;
+}
+#blog .post-item.border .post-meta-category,
+.form-gray-fields .btn,
+.widget-newsletter .btn,
+#blog .post-item.border .post-meta-category a:hover{
+    color: #fff;
+}
+.widget-newsletter .btn:hover{
+    color: var(--accent);
+    background: var(--primary-color);
+    border-color: var(--accent);
+}
+.widget-newsletter .btn:focus{
+    box-shadow: none;
+}
+#blog .post-item .post-meta-category,
+#blog .post-item .post-meta-comments,
+.single-post01 .post-item-description .post-meta-category a,
+#blog .post-item.border .post-item-wrap .post-item-description .post-meta-comments a,
+#blog .post-item .post-item-description .post-meta-date,
+#blog .post-item-description .post-meta-comments a{
+    color: var(--e-global-color-text);
+    font-size: 14px;
+    line-height: 20px;
+}
+.pagination .page-item:not(.disabled).active > .page-link, .pagination .page-item:not(.disabled):active > .page-link, .pagination .page-item:not(.disabled):focus > .page-link, .pagination .page-item:not(.disabled):hover > .page-link {
+    background-color: #edf1f6;
+    border-color: #e4e4e4;
+    box-shadow: none;
+}
+.pagination .page-item:not(.disabled) > .page-link {
+    border-color: #ececec;
+}
