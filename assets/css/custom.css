@@ -557,7 +557,7 @@ body {
     height: 266px;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+    transition: transform 0.1s ease-in-out; /* Add transition for smooth effect */
 }
 .index1-poster:hover {
     transform: scale(1.1); /* Increase the scale on hover for a zoom effect */
@@ -1390,13 +1390,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .doctor-img-con {
-    background: url(../images/Gallery-3-removebg-preview.png) no-repeat center;
+    background: url(../images/doctors-img.png) no-repeat center;
     width: 566px;
     height: 530px;
     position: absolute;
-    top: -110px;
-    left: -64px;;
-
+    top: -167px;
+    left: -64px;
 }
 
 .contact-txt-con span,

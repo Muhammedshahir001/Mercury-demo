@@ -137,7 +137,7 @@
         background-size: contain;
     }
 
-    .doctor-img-con {
+     .doctor-img-con {
         width: 476px;
         height: 480px;
         top: -100px;
@@ -319,7 +319,7 @@
         bottom: -23px;
     }
 
-    .doctor-img-con {
+  .doctor-img-con {
         width: 426px;
         height: 390px;
         top: -27px;
@@ -1275,8 +1275,8 @@
         min-height: 300px;
     }
 
-    .doctor-img-con {
-        width: 495px;
+   .doctor-img-con {
+        width: 356px;
         height: 320px;
         top: -20px;
         left: -46px;
@@ -1789,7 +1789,7 @@
         padding: 25px 29px 21px;
     }
 
-    .doctor-img-con {
+      .doctor-img-con {
         width: 226px;
         height: 200px;
         top: 60px;
