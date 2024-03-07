@@ -862,7 +862,7 @@
     }
 
     .navbar-collapse {
-        background: var(--primary--color);
+        background-color: deepskyblue;
         border-radius: 10px;
         position: relative;
         z-index: 2;
