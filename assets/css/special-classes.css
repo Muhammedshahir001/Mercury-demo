@@ -169,13 +169,13 @@
     font-size: 16px;
     line-height: 24px;
 }
-#loader,#loader:before,
-#loader:after{
+/* #loader,#loader:before, */
+/* #loader:after{
     border-top-color: #3795d2;
-}
-#loader-wrapper .loader-section {
+/* } */
+/* #loader-wrapper .loader-section {
     background: #222;
-}
+} */ */
 #blog .post-item.border .post-meta-category,
 .form-gray-fields .btn,
 .widget-newsletter .btn,
