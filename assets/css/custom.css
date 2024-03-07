@@ -24,6 +24,7 @@ body {
 
 .header-con .navbar-light .navbar-nav .nav-link {
     color: black;
+    padding-right: 5rem;
 }
 
 .header-con .navbar-light .navbar-nav .nav-item::after {
@@ -1147,7 +1148,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .patients-reviews-sec .owl-carousel::after {
     content: "";
-    background: url(../images/review-small-img.png) no-repeat right;
+  
     width: 312px;
     height: 367px;
     position: absolute;
@@ -2414,7 +2415,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* 404 page end */
 /* Preloader -------------------------------------------------------*/
 /* Loader Styles start here */
-.loader-mask {
+/* .loader-mask {
     position: fixed;
     top: 0;
     left: 0;
@@ -2422,7 +2423,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     bottom: 0;
     background-color: #fff;
     z-index: 99999;
-}
+} */
 
 .loader {
     position: absolute;

@@ -862,10 +862,11 @@
     }
 
     .navbar-collapse {
-        background-color: deepskyblue;
+        background-color:#2553d3;
         border-radius: 10px;
         position: relative;
         z-index: 2;
+        padding-bottom: 2rem;
     }
 
     .navbar-toggler:focus {
