@@ -111,7 +111,7 @@ body {
 /* banner section styling start */
 .banner-con {
     padding-top: 147px;
-    background: var(--secondary--color) url(../images/banner\ image.jpg) no-repeat;
+    background:url(../images/banner\ image.jpg) no-repeat;
     background-size: cover;
 }
 
