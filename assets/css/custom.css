@@ -1379,7 +1379,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .contact-section::after {
     content: "";
-    background: url(../images/contact-section-right-img.png) no-repeat center;
     width: 197px;
     height: 109px;
     position: absolute;
@@ -1666,7 +1665,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 130px;
     height: 120px;
     position: absolute;
-    background: url(../images/double-shape-img2.png) no-repeat;
 }
 
 .sub-banner-inner-box:after {
@@ -1676,7 +1674,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 216px;
     height: 254px;
     position: absolute;
-    background: url(../images/apple-shape-img.png) no-repeat;
 }
 
 .sub-banner-inner-box:before {
@@ -1686,7 +1683,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 330px;
     height: 183px;
     position: absolute;
-    background: url(../images/box-shape-img1.png) no-repeat;
+
 }
 
 /* sub banner section style end */
@@ -1973,11 +1970,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .category-box {
+    
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     transition: .3s ease-in-out;
-    background: var(--white-color);
+    /* background: var(--white-color); */
+    background: linear-gradient(to top, #ffffff 0%, #82b0d3 100%);
     box-shadow: 2px 2px 52px 6px rgb(36 63 250 / 4%);
 }
 
@@ -2246,7 +2245,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* contact page start */
 /* contact page banner style */
 .contact-banner-sec {
-    background: url(../images/contact-banner-img.jpg) no-repeat center;
+    background: url(../images/Gallery-3.png) no-repeat center;
     background-size: cover;
 }
 
@@ -2503,4 +2502,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .my-floats{
 	margin-top:16px;
+}
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100% !important;
 }
