@@ -15,7 +15,7 @@ body {
 /* header section styling start */
 .header-con {
     z-index: 99;
-    top: 30px;
+    /* top: 30px; */
     position: absolute;
 }
 .header-con .navbar-light .navbar-nav .nav-item {
@@ -1611,7 +1611,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .sub-banner-con::before {
     content: "";
-    background: var(--secondary--color);
     width: 100%;
     height: 100%;
     opacity: .8;
@@ -1635,18 +1634,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: inline-block;
     padding-right: 12px;
     padding-left: 15px;
-    color: var(--white-color);
+    color:#000;
     content: "-";
 }
 
 .sub-banner-con .breadcrumb {
-    background: rgb(3 13 67 / 40%);
+    background:#fff;
     padding: 13px 35px 13px 36px;
     border-radius: 10px;
 }
 
 .sub-banner-con .breadcrumb li a {
-    color: var(--white-color);
+    color:#007bff;
 }
 
 .sub-banner-con .breadcrumb li {
@@ -2245,8 +2244,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* contact page start */
 /* contact page banner style */
 .contact-banner-sec {
-    background: url(../images/Gallery-3.png) no-repeat center;
+    background: url(../images/1.png) no-repeat center;
     background-size: cover;
+    margin-top: 4rem;
+}
+.about-banner-sec {
+    background: url(../images/2.png) no-repeat center;
+    background-size: cover;
+    margin-top: 4rem;
 }
 
 /* contact page banner style */
@@ -2508,7 +2513,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   padding-bottom: 75%;
   height: 0;
   overflow: hidden;
-  
 }
 
 .google-maps iframe {
